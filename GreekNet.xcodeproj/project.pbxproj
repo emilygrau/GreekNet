@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA0768A2079AC3600E1817C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA076892079AC3600E1817C /* AppDelegate.swift */; };
+		FDA0768C2079AC3600E1817C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0768B2079AC3600E1817C /* ViewController.swift */; };
+		FDA0768F2079AC3600E1817C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA0768D2079AC3600E1817C /* Main.storyboard */; };
+		FDA076912079AC3600E1817C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA076902079AC3600E1817C /* Assets.xcassets */; };
+		FDA076942079AC3600E1817C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA076922079AC3600E1817C /* LaunchScreen.storyboard */; };
+		FDA0769F2079AC3600E1817C /* GreekNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0769E2079AC3600E1817C /* GreekNetTests.swift */; };
+		FDA076AA2079AC3600E1817C /* GreekNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA076A92079AC3600E1817C /* GreekNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA0769B2079AC3600E1817C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA0767E2079AC3500E1817C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA076852079AC3600E1817C;
+			remoteInfo = GreekNet;
+		};
+		FDA076A62079AC3600E1817C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA0767E2079AC3500E1817C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA076852079AC3600E1817C;
+			remoteInfo = GreekNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA076862079AC3600E1817C /* GreekNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA076892079AC3600E1817C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA0768B2079AC3600E1817C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDA0768E2079AC3600E1817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA076902079AC3600E1817C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA076932079AC3600E1817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA076952079AC3600E1817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA0769A2079AC3600E1817C /* GreekNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA0769E2079AC3600E1817C /* GreekNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekNetTests.swift; sourceTree = "<group>"; };
+		FDA076A02079AC3600E1817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA076A52079AC3600E1817C /* GreekNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA076A92079AC3600E1817C /* GreekNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekNetUITests.swift; sourceTree = "<group>"; };
+		FDA076AB2079AC3600E1817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA076832079AC3600E1817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076972079AC3600E1817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076A22079AC3600E1817C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA0767D2079AC3500E1817C = {
+			isa = PBXGroup;
+			children = (
+				FDA076882079AC3600E1817C /* GreekNet */,
+				FDA0769D2079AC3600E1817C /* GreekNetTests */,
+				FDA076A82079AC3600E1817C /* GreekNetUITests */,
+				FDA076872079AC3600E1817C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA076872079AC3600E1817C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA076862079AC3600E1817C /* GreekNet.app */,
+				FDA0769A2079AC3600E1817C /* GreekNetTests.xctest */,
+				FDA076A52079AC3600E1817C /* GreekNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA076882079AC3600E1817C /* GreekNet */ = {
+			isa = PBXGroup;
+			children = (
+				FDA076892079AC3600E1817C /* AppDelegate.swift */,
+				FDA0768B2079AC3600E1817C /* ViewController.swift */,
+				FDA0768D2079AC3600E1817C /* Main.storyboard */,
+				FDA076902079AC3600E1817C /* Assets.xcassets */,
+				FDA076922079AC3600E1817C /* LaunchScreen.storyboard */,
+				FDA076952079AC3600E1817C /* Info.plist */,
+			);
+			path = GreekNet;
+			sourceTree = "<group>";
+		};
+		FDA0769D2079AC3600E1817C /* GreekNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0769E2079AC3600E1817C /* GreekNetTests.swift */,
+				FDA076A02079AC3600E1817C /* Info.plist */,
+			);
+			path = GreekNetTests;
+			sourceTree = "<group>";
+		};
+		FDA076A82079AC3600E1817C /* GreekNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA076A92079AC3600E1817C /* GreekNetUITests.swift */,
+				FDA076AB2079AC3600E1817C /* Info.plist */,
+			);
+			path = GreekNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA076852079AC3600E1817C /* GreekNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA076AE2079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNet" */;
+			buildPhases = (
+				FDA076822079AC3600E1817C /* Sources */,
+				FDA076832079AC3600E1817C /* Frameworks */,
+				FDA076842079AC3600E1817C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekNet;
+			productName = GreekNet;
+			productReference = FDA076862079AC3600E1817C /* GreekNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA076992079AC3600E1817C /* GreekNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA076B12079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNetTests" */;
+			buildPhases = (
+				FDA076962079AC3600E1817C /* Sources */,
+				FDA076972079AC3600E1817C /* Frameworks */,
+				FDA076982079AC3600E1817C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA0769C2079AC3600E1817C /* PBXTargetDependency */,
+			);
+			name = GreekNetTests;
+			productName = GreekNetTests;
+			productReference = FDA0769A2079AC3600E1817C /* GreekNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA076A42079AC3600E1817C /* GreekNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA076B42079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNetUITests" */;
+			buildPhases = (
+				FDA076A12079AC3600E1817C /* Sources */,
+				FDA076A22079AC3600E1817C /* Frameworks */,
+				FDA076A32079AC3600E1817C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA076A72079AC3600E1817C /* PBXTargetDependency */,
+			);
+			name = GreekNetUITests;
+			productName = GreekNetUITests;
+			productReference = FDA076A52079AC3600E1817C /* GreekNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA0767E2079AC3500E1817C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Emily Grau";
+				TargetAttributes = {
+					FDA076852079AC3600E1817C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FDA076992079AC3600E1817C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA076852079AC3600E1817C;
+					};
+					FDA076A42079AC3600E1817C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA076852079AC3600E1817C;
+					};
+				};
+			};
+			buildConfigurationList = FDA076812079AC3500E1817C /* Build configuration list for PBXProject "GreekNet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA0767D2079AC3500E1817C;
+			productRefGroup = FDA076872079AC3600E1817C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA076852079AC3600E1817C /* GreekNet */,
+				FDA076992079AC3600E1817C /* GreekNetTests */,
+				FDA076A42079AC3600E1817C /* GreekNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA076842079AC3600E1817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA076942079AC3600E1817C /* LaunchScreen.storyboard in Resources */,
+				FDA076912079AC3600E1817C /* Assets.xcassets in Resources */,
+				FDA0768F2079AC3600E1817C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076982079AC3600E1817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076A32079AC3600E1817C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA076822079AC3600E1817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA0768C2079AC3600E1817C /* ViewController.swift in Sources */,
+				FDA0768A2079AC3600E1817C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076962079AC3600E1817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA0769F2079AC3600E1817C /* GreekNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA076A12079AC3600E1817C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA076AA2079AC3600E1817C /* GreekNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA0769C2079AC3600E1817C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA076852079AC3600E1817C /* GreekNet */;
+			targetProxy = FDA0769B2079AC3600E1817C /* PBXContainerItemProxy */;
+		};
+		FDA076A72079AC3600E1817C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA076852079AC3600E1817C /* GreekNet */;
+			targetProxy = FDA076A62079AC3600E1817C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA0768D2079AC3600E1817C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA0768E2079AC3600E1817C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA076922079AC3600E1817C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA076932079AC3600E1817C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA076AC2079AC3600E1817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA076AD2079AC3600E1817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA076AF2079AC3600E1817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA076B02079AC3600E1817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDA076B22079AC3600E1817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekNet.app/GreekNet";
+			};
+			name = Debug;
+		};
+		FDA076B32079AC3600E1817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekNet.app/GreekNet";
+			};
+			name = Release;
+		};
+		FDA076B52079AC3600E1817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreekNet;
+			};
+			name = Debug;
+		};
+		FDA076B62079AC3600E1817C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreekNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilygrau.GreekNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreekNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA076812079AC3500E1817C /* Build configuration list for PBXProject "GreekNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA076AC2079AC3600E1817C /* Debug */,
+				FDA076AD2079AC3600E1817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA076AE2079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA076AF2079AC3600E1817C /* Debug */,
+				FDA076B02079AC3600E1817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA076B12079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA076B22079AC3600E1817C /* Debug */,
+				FDA076B32079AC3600E1817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA076B42079AC3600E1817C /* Build configuration list for PBXNativeTarget "GreekNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA076B52079AC3600E1817C /* Debug */,
+				FDA076B62079AC3600E1817C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA0767E2079AC3500E1817C /* Project object */;
+}
